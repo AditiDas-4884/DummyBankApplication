@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #55efc4; -fx-border-color: #218c74;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="215.0" layoutY="14.0" text="Hi There,">
+         <font>
+            <Font name="SansSerif Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="53.0" text="Welcome!">
+         <font>
+            <Font name="SansSerif Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="127.0" text="Bank Account Number">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accNo" layoutX="32.0" layoutY="147.0" prefHeight="25.0" prefWidth="528.0" />
+      <Label layoutX="32.0" layoutY="220.0" text="Pin Code">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="323.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#doCreditDebit" text="Login">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#launchRegister" text="Make New Account">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="420.0" layoutY="311.0" text="not a member?">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pin" layoutX="32.0" layoutY="240.0" prefHeight="25.0" prefWidth="528.0" />
+      <Label fx:id="result" layoutX="32.0" layoutY="275.0" textFill="#ea2027">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+
+      
+   </children>
+</Pane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="registerUI" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F8EFBA; -fx-border-color: #b33939;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Register">
+   <children>
+      <Label layoutX="228.0" layoutY="52.0" text="Register">
+         <font>
+            <Font name="SansSerif Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="110.0" text="First Name">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="52.0" layoutY="130.0" prefHeight="26.0" prefWidth="507.0" />
+      <Label layoutX="52.0" layoutY="180.0" text="Last Name">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lname" layoutX="52.0" layoutY="200.0" prefHeight="26.0" prefWidth="507.0" />
+      <Label layoutX="52.0" layoutY="257.0" text="Pin Code">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="329.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#performSignup" text="Submit">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pin" layoutX="50.0" layoutY="277.0" prefHeight="26.0" prefWidth="507.0" />
+      <Button layoutX="439.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#loadLogin" text="Login">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="439.0" layoutY="325.0" text="Already a member?">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" layoutX="50.0" layoutY="14.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="AccountNo" layoutX="22.0" layoutY="325.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

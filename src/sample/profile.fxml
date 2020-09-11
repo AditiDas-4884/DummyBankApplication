@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="ProfileUI" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #303952; -fx-border-color: #7efff5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Profile">
+   <children>
+      <Label layoutX="184.0" layoutY="26.0" text="User's Profile" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="91.0" text="Bank Account Number : " textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="141.0" text="User's Name : " textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="187.0" text="Updated Savings : " textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="accountNo" layoutX="286.0" layoutY="91.0" text="AccountNo" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="fname" layoutX="197.0" layoutY="141.0" text="fname" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lname" layoutX="286.0" layoutY="141.0" text="lname" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="227.0" layoutY="193.0" prefHeight="28.0" prefWidth="15.0" text="₹" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="savings" layoutX="248.0" layoutY="193.0" text="Savings" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="373.0" layoutY="277.0" text="Thank You :)" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="373.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#goToLogin" text="Logout">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="message" layoutX="31.0" layoutY="233.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
