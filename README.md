@@ -1,6 +1,6 @@
 # DummyBankApplication
 Bank App
-Store the user credentials and their current savings in database
+To store the user credentials and their current savings in database
 Features:
 ● User has to register and login using proper credentials(5 digit account number and 4 digit pin)
 ● User can view his savings
